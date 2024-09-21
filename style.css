@@ -1,0 +1,123 @@
+body{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px solid red; */
+    background: url(image/gym.jpeg);
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */                   
+    /* background-size: 100% 100%; */     
+    background-size: 100vw auto; 
+}
+
+.left{
+    display:inline-block;
+    position: absolute;
+    /* left: 18px;
+    top: -10px; */
+    margin: -35px 0px 0px 18px;   
+    /* text-align: center; */
+    /* border: 2px solid green;  */
+}
+
+.left img{
+    width: 100px;
+    height: 60px;
+    filter: invert(100%);
+}
+
+.left div{
+    text-align: center;
+    font-size: 20px;
+}
+
+.mid{
+    display: block;
+    width: 40%;
+    margin: 30px auto auto auto;  /*add*/
+    /* margin-top: 15px; */
+    /* border: 2px solid red; */
+}
+
+.right{
+    display:inline-block;
+    position: absolute;
+    margin: -35px 0px 0px 80%;   /*add*/
+    /* right: 20px;
+    top: 29px; */
+    /* border: 2px solid wheat; */
+} 
+
+/* .navbar{
+    display: inline-block;   
+} */
+
+.navbar li{
+    display: inline-block;
+    font-size: 17px;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding-right: 23px;
+    /* border: 1px solid red; */
+}   
+
+
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: gray;
+}   
+
+.btn{
+    font-family: "Roboto", sans-serif;
+    margin: 0PX 9PX;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(31, 30, 30);
+}
+
+.container{
+    border: 2px solid white;
+    margin: 70px 50px;
+    padding: 32px;
+    width: 45%;
+    border-radius: 29px;
+}
+.container h1{
+    text-align: center;
+    font-size: 27px;
+    
+}
+
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 200px;
+    padding: 8px;
+    border: 2px solid black;
+    margin: 5px  300px;
+    font-size: 13px;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    border: 2px solid black;
+
+}
+
+.container button{
+    display: block;
+    width:  220px;
+    margin: 10px 302px;
+    padding: 8px;
+}
